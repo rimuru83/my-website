@@ -3,38 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-
-        h1 {
-            color: #007bff;
-        }
-
-        p {
-            color: #333;
-        }
-
-        #cover-photo {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-
-    <img id="cover-photo" src="https://github.com/rimuru83/my-website/blob/main/cover.jpg" alt="Cover Photo">
-
-   <!DOCTYPE html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Manga Shop</title>
+    <title>Obscured Slime Pages</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -46,9 +15,23 @@
 
         header {
             background-color: #007bff;
-            padding: 10px;
             text-align: center;
             color: white;
+            position: relative;
+        }
+
+        header img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         nav {
@@ -85,6 +68,7 @@
 <body>
 
     <header>
+        <img src="shop-cover.jpg" alt="Shop Cover Photo">
         <h1>Digital Manga Shop</h1>
     </header>
 
